@@ -2,7 +2,6 @@
 
 # dependencies
 frontend/node_modules
-backend/node_modules
 frontend/.pnp
 frontend/.pnp.js
 
@@ -22,3 +21,8 @@ frontend/.env.production.local
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
+
+# backend
+backend/node_modules
+backend/videos
+backend/*.zip
