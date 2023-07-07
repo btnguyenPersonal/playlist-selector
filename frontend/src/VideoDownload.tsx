@@ -11,8 +11,8 @@ const VideoDownload = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type="text" value={url} onChange={e => setUrl(e.target.value)} placeholder="Enter YouTube video URL" required />
-            <button type="submit">Download</button>
+            <input className="download-form" type="url" value={url} onChange={e => setUrl(e.target.value)} placeholder="Enter YouTube video URL" required />
+            <button className="download-form" type="submit">Download</button>
         </form>
     );
 };
